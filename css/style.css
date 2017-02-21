@@ -1,5 +1,6 @@
-body{
+body {
     background-image: url(../img/background.png);
+    background-repeat: round;
 }
 
 .desk{
@@ -61,7 +62,6 @@ nav>ul>li>a {
 
 .description {
     text-align: center;
-    width: 200p;
     display: flex;
     color: #fff;
     flex-direction: column;
@@ -136,12 +136,46 @@ footer{
     background-image: url(../img/f-background.png);
 }
 
-.title {
+.contactos {
     color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    height: 250px;
+}
+
+.contact>h2 {
+    font-family: 'Ovo', serif;
+        font-weight: 100;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact>a {
+    margin: 11px 0px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.contact>a>.btn {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    margin: 8px 0px;
+}
+.contact>a>img {
+    margin: 0px 5px 0px 0px;
+}
+.contact>p {
     font-family: 'Ovo', serif;
 }
 
-bootstrap.min.css:5
-
-
+.contact-2 {
+    display: flex;
+}
 
