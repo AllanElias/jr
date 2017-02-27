@@ -21,6 +21,31 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.info-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.info-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .info-2 {
+    margin: 0px;
+    }
+    .info-3 {
+    margin: 0px;
+    }
+
+}
+
+
 .info>a{
     color: #914A3D;
 }
@@ -99,8 +124,6 @@ nav>ul>li>a {
     padding: 15px;
 }
 
-
-
 .producto>a{
     color: #914A3D;
 }
@@ -178,4 +201,6 @@ footer{
 .contact-2 {
     display: flex;
 }
+
+/* footer start */
 
