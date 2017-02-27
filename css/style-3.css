@@ -1,20 +1,22 @@
 body {
     background-image: url(../img/background.png);
     background-repeat: round;
+    background-size: cover;
 }
+
+.desk {
+    margin: 50px 0px 0px 0px;
+    background-color: #fff;
+    min-width: 290px;
+}
+
+/* header */
 
 a {
     color: #365880;
     text-decoration: none;
 }
 
-.desk{
-    margin: 50px 0px;
-    background-color: #fff;
-    min-width: 290px;
-}
-
-/* header */
 .beggin {
     margin-top: 25px;
     margin-bottom: 5px;
@@ -84,7 +86,7 @@ nav>ul>li>a {
 /* main start */
 
 .h-img{
-    background-image: url(../img/h-background.png);
+    background-image: url(../img/h-background_n.png);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -115,32 +117,41 @@ nav>ul>li>a {
     margin-bottom: 10px;
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+
 .producto {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    border: solid 1px;
-    border-color: #365880;
-    width: 200px;
     padding: 15px;
+    text-align: center;
+    width: 600px;
 }
 
 .producto>a{
     color: #914A3D;
+    margin: 10px 0px;
 }
 
 .producto>h2 {
-    color: #365880;
+    color: #914A3D;
     font-weight: 300;
     font-size: 25px;
+    margin: 0px;
+    font-family: 'Ovo', serif;
+}
+
+.producto>h3 {
+    color: #365880;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
 }
 
 .producto>p {
     font-size: 12px;
-    margin: 0px 0px 10px 0px;
+    margin: 2px;
     color: gray;
 }
 .btn {
@@ -200,6 +211,7 @@ footer{
 }
 .contact>p {
     font-family: 'Ovo', serif;
+    margin: 5px 0px;
 }
 
 .contact-2 {

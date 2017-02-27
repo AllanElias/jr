@@ -1,20 +1,21 @@
 body {
     background-image: url(../img/background.png);
-    background-repeat: round;
+    background-size: cover;
 }
+
+.desk {
+    margin: 50px 0px 0px 0px;
+    background-color: #fff;
+    min-width: 290px;
+}
+
+/* header */
 
 a {
     color: #365880;
     text-decoration: none;
 }
 
-.desk{
-    margin: 50px 0px;
-    background-color: #fff;
-    min-width: 290px;
-}
-
-/* header */
 .beggin {
     margin-top: 25px;
     margin-bottom: 5px;
@@ -84,7 +85,7 @@ nav>ul>li>a {
 /* main start */
 
 .h-img{
-    background-image: url(../img/h-background.png);
+    background-image: url(../img/h-background_c.png);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -115,44 +116,60 @@ nav>ul>li>a {
     margin-bottom: 10px;
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+
 .producto {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    border: solid 1px;
-    border-color: #365880;
-    width: 200px;
-    padding: 15px;
+    text-align: center;
+    width: 600px;
 }
 
 .producto>a{
-    color: #914A3D;
+    color: #365880;
+    margin: 10px 0px;
 }
 
-.producto>h2 {
+.producto>a>img {
+    margin: 0px 5px 0px 0px;
+}
+
+
+.productos>h3 {
     color: #365880;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 14px;
 }
 
-.producto>p {
-    font-size: 12px;
-    margin: 0px 0px 10px 0px;
-    color: gray;
-}
 .btn {
+    color: #fff;
     width: 150px;
     padding: 0px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: #914A3D;
+    background-color: #365880;
     border-width: thin;
     border-radius: 0px;
     padding: 2px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+form {
+    width: 300px;
+}
+
+form>input {
+    border-radius: 0px;
+    border-color: #365880;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
     font-weight: 300;
+    color: #365880;
 }
 
 /* element end */
@@ -161,6 +178,7 @@ nav>ul>li>a {
 
 footer{
     background-image: url(../img/f-background.png);
+    margin-bottom: 60px;
 }
 
 .contactos {
@@ -168,7 +186,6 @@ footer{
     display: flex;
     justify-content: center;
     margin: 20px 0px;
-    height: 250px;
 }
 
 .contact>h2 {
@@ -179,32 +196,16 @@ footer{
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.contact>a {
-    margin: 11px 0px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 300;
-}
-
-.contact>a>.btn {
-    color: #fff;
-    background-color: transparent;
-    border-color: #fff;
-    margin: 8px 0px;
-}
-.contact>a>img {
-    margin: 0px 5px 0px 0px;
 }
 .contact>p {
     font-family: 'Ovo', serif;
+    margin:0px;
 }
 
-.contact-2 {
-    display: flex;
-}
+
 
 /* footer start */
 
