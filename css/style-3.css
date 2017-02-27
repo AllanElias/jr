@@ -144,7 +144,7 @@ nav>ul>li>a {
 
 .producto>h3 {
     color: #365880;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     text-align: justify;
 }
@@ -172,6 +172,7 @@ nav>ul>li>a {
 
 footer{
     background-image: url(../img/f-background.png);
+    margin-bottom: 60px;
 }
 
 .contactos {
